@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Level()
+comment1.params=
+comment1.target=void\ maakLevel()
+comment2.params=
+comment2.target=void\ addController()
+comment3.params=lv
+comment3.target=void\ setLevel(int)
+comment4.params=
+comment4.target=int\ getLevel()
+comment5.params=lv
+comment5.target=void\ ParseText(int)
+numComments=6

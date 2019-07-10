@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=kleur
+comment0.target=Eindpunt(java.lang.String)
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=java.lang.String\ getKleur()
+comment3.params=x
+comment3.target=void\ setFilled(boolean)
+comment4.params=
+comment4.target=boolean\ getFilled()
+numComments=5

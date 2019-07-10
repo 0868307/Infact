@@ -1,0 +1,20 @@
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,w,w,w,w,w,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,w,o,o,o,w,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,w,o,grr,o,w,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,w,o,o,o,w,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,w,w,o,w,w,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,reg,rep,reg,w,o,o,o,o,o,o,o,o
+o,o,o,o,o,w,w,w,w,w,o,w,w,w,w,w,o,o,o,o
+o,o,o,o,o,w,o,o,o,o,o,o,o,reg,o,w,o,o,o,o
+o,o,o,o,o,w,o,o,grr,w,o,o,gre,rep,reg,w,o,o,o,o
+o,o,o,o,o,w,reg,o,w,rep,reg,reg,rep,w,o,w,o,o,o,o
+o,o,o,o,o,w,rep,reg,w,reg,ree,o,w,grr,o,w,o,o,o,o
+o,o,o,o,o,w,reg,o,w,o,o,o,w,o,o,w,o,o,o,o
+o,o,o,o,o,w,o,o,grr,o,o,o,o,o,o,w,o,o,o,o
+o,o,o,o,o,w,w,w,w,w,w,w,w,w,w,w,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o

@@ -1,0 +1,104 @@
+o = blank
+w = wall
+
+(* = a color)
+*r = robot
+*e = end point
+*g = glow
+*t = trail
+*p = plant
+
+
+Colors:
+r = red
+g = gray
+
+Level 1:
+{{o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,w ,w ,w ,w ,w ,w ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,gr,o ,o ,o ,w ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,ge,o ,w ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,w ,w ,w ,w ,w ,w ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o }}
+
+
+Level2:
+{{o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,w ,w ,w ,w ,w ,w ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o ,w ,w ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,gr,o ,o ,o ,o ,w ,w ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,rg,o ,o ,o ,w ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,rg,rp,rg,o ,o ,w ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,rg,o ,o ,o ,w ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,w ,o ,o ,o ,o ,re,o ,w ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,w ,w ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,w ,w ,w ,w ,w ,w ,w ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o }}
+
+ 
+Level3:
+{{o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,w ,w ,w ,w ,w ,w ,w ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o ,o ,w ,w ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,gr,o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,rg,o ,o ,ge,o ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,rg,rp,rg,o ,o ,o ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,rg,o ,o ,re,o ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,gr,o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o ,o ,w ,w ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,w ,w ,w ,w ,w ,w ,w ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o }}
+
+ Level3:
+{{o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,w ,w ,w ,w ,w ,w ,w ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o ,o ,w ,w ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,gr,o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,rg,o ,o ,o ,o ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,rg,rp,rg,o ,re,o ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,rg,o ,o ,o ,o ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,gr,o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,o ,o ,o ,o ,o ,o ,w ,w ,w ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,w ,w ,w ,w ,w ,w ,w ,w ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o },
+ {o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o ,o }}

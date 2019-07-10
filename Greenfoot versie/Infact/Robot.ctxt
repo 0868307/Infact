@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=kleur
+comment0.target=Robot(java.lang.String)
+comment1.params=
+comment1.target=void\ act()
+comment2.params=dx\ dy
+comment2.target=void\ Move(int,\ int)
+comment3.params=
+comment3.target=void\ checkTrail()
+comment4.params=
+comment4.target=java.lang.String\ getKleur()
+comment5.params=x
+comment5.target=void\ setOnBase(boolean)
+comment6.params=
+comment6.target=boolean\ getOnBase()
+comment7.params=
+comment7.target=void\ paintImage()
+numComments=8
